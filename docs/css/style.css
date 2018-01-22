@@ -39,4 +39,25 @@ body {
   animation: fadeIn 0.5s ease-in 1 forwards;
 }
 
-h1 { color: #ffffff; font-family: 'Raleway',sans-serif; font-size: 62px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase; }
+/*h1 { color: #ff4411; font-size: 28px; font-family: 'Signika', sans-serif; padding-bottom: 10px; }: 'Raleway',sans-serif; font-size: 62px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase; }
+*/
+
+.neon {
+  font-family: 'Permanent Marker', cursive;
+    font-style: oblique;
+    color: #f9f9f9;
+    text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+             0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+             0 0 40px #A5F1FF;
+        text-align: center;
+        letter-spacing: 1px;
+}
+
+h3{
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  font-weight: bold;
+  font-style: oblique;
+  text-shadow: 2px 2px #6f6f6f;
+  color: #f9f9f9;
+}
