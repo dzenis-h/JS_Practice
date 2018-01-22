@@ -39,9 +39,6 @@ body {
   animation: fadeIn 0.5s ease-in 1 forwards;
 }
 
-/*h1 { color: #ff4411; font-size: 28px; font-family: 'Signika', sans-serif; padding-bottom: 10px; }: 'Raleway',sans-serif; font-size: 62px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase; }
-*/
-
 .neon {
   font-family: 'Permanent Marker', cursive;
     font-style: oblique;
@@ -53,7 +50,7 @@ body {
         letter-spacing: 1px;
 }
 
-h3{
+h3 {
   font-family: 'Great Vibes', cursive;
   text-align: center;
   font-weight: bold;
