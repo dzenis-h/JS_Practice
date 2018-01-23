@@ -38,3 +38,23 @@ body {
   opacity: 0;
   animation: fadeIn 0.5s ease-in 1 forwards;
 }
+
+.neon {
+  font-family: 'Permanent Marker', cursive;
+    font-style: oblique;
+    color: #f9f9f9;
+    text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+             0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+             0 0 40px #A5F1FF;
+        text-align: center;
+        letter-spacing: 1px;
+}
+
+h3 {
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  font-weight: bold;
+  font-style: oblique;
+  text-shadow: 2px 2px #6f6f6f;
+  color: #f9f9f9;
+}
