@@ -1,5 +1,7 @@
 import * as actionTypes from './actionTypes';
 
+// Using Action Creators so I'll be able to make async code work properly
+
 export const increment = () => {
     return {
         type: actionTypes.INCREMENT

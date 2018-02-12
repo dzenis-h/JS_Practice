@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+
+// Importing that index file containing all my action exports
 import * as actionCreators from '../../store/actions/index';
 
 import CounterControl from '../../components/CounterControl/CounterControl';
@@ -26,9 +28,10 @@ class Counter extends Component {
     }
 }
 
+// Configuring Redux
+
 const mapStateToProps = state => {
     return {
-
         ctr: state.ctr.counter,
         storedResults: state.res.results
     }
@@ -45,4 +48,5 @@ const mapDispatchToProps = dispatch => {
     }
 };
 
+// Connecting React to Redux
 export default connect(mapStateToProps, mapDispatchToProps)(Counter);
