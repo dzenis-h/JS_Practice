@@ -2,8 +2,8 @@ const Singleton = (function() {
   let instance;
 
   function createInstance() {
-    const object = new Object({name:'Brad'});
-    return object;
+    const obj = new Object({name:'Bigga'});
+    return obj;
   }
 
   return {
@@ -16,9 +16,8 @@ const Singleton = (function() {
   }
 })();
 
+// It will always return only 1 instance
 const instanceA = Singleton.getInstance();
 const instanceB = Singleton.getInstance();
 
 console.log(instanceA === instanceB);
-
-// console.log(instanceA);

@@ -36,16 +36,18 @@ const Chatroom = function() {
   }
 }
 
-const brad = new User('Brad');
-const jeff = new User('Jeff');
-const sara = new User('Sara');
+const dzenis = new User('Dzenis');
+const bill = new User('Bill');
+const amra = new User('Amra');
 
 const chatroom = new Chatroom();
 
-chatroom.register(brad);
-chatroom.register(jeff);
-chatroom.register(sara);
+chatroom.register(dzenis);
+chatroom.register(bill);
+chatroom.register(amra);
 
-brad.send('Hello Jeff', jeff);
-sara.send('Hello Brad, you are the best dev ever!', brad);
-jeff.send('Hello Everyone!!!!');
+bill.send('Hello to guys :)', '');
+amra.send(`Hello ${dzenis.name}, you are the best dev ever!`, dzenis);
+dzenis.send('Just getting started ;)', amra);
+dzenis.send('Oh, hi Bill, all good?', bill);
+
