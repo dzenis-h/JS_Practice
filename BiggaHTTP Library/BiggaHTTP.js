@@ -1,6 +1,6 @@
 /**
- * EasyHTTP Library
- * Library for making HTTP requests
+ * BiggaHTTP Library
+ * Simple library for making HTTP requests
  *
  * @version 1.0.0
  * @author  BiggaHD
@@ -8,15 +8,16 @@
  *
  **/
 
- class BiggaHTTP {
-  // Make an HTTP GET Request 
+class BiggaHTTP {
+
+  // GET Request 
   async get(url) {
     const response = await fetch(url);
     const resData = await response.json();
     return resData;
   }
 
-  // Make an HTTP POST Request
+  // POST Request
   async post(url, data) {
     const response = await fetch(url, {
       method: 'POST',
@@ -31,7 +32,7 @@
    
   }
 
-   // Make an HTTP PUT Request
+   // PUT Request
    async put(url, data) {
     const response = await fetch(url, {
       method: 'PUT',
@@ -45,7 +46,7 @@
     return resData;
   }
 
-  // Make an HTTP DELETE Request
+  // DELETE Request
   async delete(url) {
     const response = await fetch(url, {
       method: 'DELETE',
@@ -53,11 +54,10 @@
         'Content-type': 'application/json'
       }
     });
-
-    const resData = await 'Resource Deleted...';
+    
+    const resData = await response(console.warn('Data Deleted!'));
     return resData;
   }
-
  }
 
- 
+ export const http = new BiggaHTTP();
