@@ -5,7 +5,7 @@
 ## Overview 📝
 This repo contains various Vanilla JS applications made with only the sole purpose of sharpening my existing skills, practicing and implementing them, and, of course, learning new ones. If you take a closer look, it's obvious that I've extended this repo to include other (not vanilla JS) technologies, but still based on JavaScript. The current code can be found in the live demo [here](https://biggahd.github.io/JS_Practice/).
 
-## This repo contains the following:
+## This repo contains the following: 📋
 - Backend authentication
 - Node_Auth practice
 - BiggaHTTP Library
