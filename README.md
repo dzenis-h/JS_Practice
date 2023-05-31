@@ -17,20 +17,20 @@ This repo contains various Vanilla JS applications made with only the sole purpo
 - ES6 Refresher
 - Get Lucky Scroller
 - JavaScript Patterns
-- Modern Image Gallery With ES6
 - My Simple Framework
-- NodeJS-ToDo-API
+- NodeJS ToDo API
 - Promises
 - RE From Validator
-- Redux_Practice
+- Redux Practice
 - Regular Expressions
-- docs
-- loancalculator
+- Docs
+- Loan Calculator
 - nanoPosts
-- numberguesser
-- tasklist
+- Number Guesser
+- Task List
+- Modern Image Gallery With ES6
 
-To be continued ... 👍
+**To be continued ...** 👀
 
 ## Tech Stack 🛠️
 
