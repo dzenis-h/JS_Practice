@@ -43,7 +43,7 @@ To be continued ... 👍
 | <img src="https://img.shields.io/badge/-Redux-764ABC?style=flat-square&logo=redux&logoColor=white" align="center"> | [Redux](https://redux.js.org/) | A predictable state container for JavaScript apps. |
 | <img src="https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white" align="center"> | [NodeJS](https://nodejs.org/) | A JavaScript runtime built on Chrome's V8 JavaScript engine. |
 | <img src="https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white" align="center"> | [Express](https://expressjs.com/) | A fast, unopinionated, minimalist web framework for Node.js. |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/OOjs_UI_icon_regular-expression-progressive.svg/20px-OOjs_UI_icon_regular-expression-progressive.svg.png" width="50px" height="50px" align="center">  | [Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) | A sequence of characters that define a search pattern. |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/OOjs_UI_icon_regular-expression-progressive.svg/20px-OOjs_UI_icon_regular-expression-progressive.svg.png" width="25px" height="25px" align="center">  | [Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) | A sequence of characters that define a search pattern. |
 
 ## Contributing 🤝
 Contributions are always welcome! If you would like to contribute to this project, please follow these steps:
